@@ -1,14 +1,22 @@
-### Kiarash Amiri
+# Kiarash Amiri
 
-Network security & machine learning - building intrusion detection that survives real, changing traffic.
+Network security, monitoring, and machine learning for anomaly detection.
 
-I spent seven years running intrusion and anomaly detection across ~3,000 servers at 50+ sites, where I watched detection models go stale in production long before I knew the phenomenon had a name.  **telling benign concept drift from adversarial manipulation, online, in deployed ML-based intrusion detection.**
+I am a network engineer with more than eight years of experience in monitoring and operations. At OKCS, I work with telemetry for more than 3,000 Linux and Windows servers across over 50 sites. Working with evolving operational traffic motivated my independent research on how benign distribution shift affects machine-learning intrusion detection.
 
-**Current work**
-- [**drift-aware-nids**](https://github.com/Amirikiarash/drift-aware-nids) - measuring benign drift on real ISP traffic (CESNET-TimeSeries24, UGR'16) and a first, fully reproducible attempt at separating real attacks from benign drift. Every number re-runs automatically in CI.
+## Current research
 
-**Background**     
-  · SANS SEC511 · CCNA · VMware VCP
-- Two peer-reviewed conference papers (applied machine learning)
+[drift-aware-nids](https://github.com/Amirikiarash/drift-aware-nids) — reproducible experiments on CESNET-TimeSeries24 and UGR'16 that measure benign drift and evaluate when traffic-shift signals distinguish attacks from ordinary change. Every reported result is re-run automatically in continuous integration.
 
-📫 amiri.kiarash@outlook.com · [LinkedIn](https://www.linkedin.com/in/kiarash-amiri)
+My current question is: how can a deployed ML-based intrusion detector distinguish benign concept drift from adversarial manipulation without producing escalating false alarms?
+
+## Background
+
+- Network monitoring and operations analytics: PRTG, ManageEngine, Linux/Windows telemetry, Cisco routing and switching, Active Directory
+- Research tools: Python, NumPy, pandas, SciPy, scikit-learn, permutation tests, bootstrap evaluation
+- Professional training: Cisco CCNA course; SANS SEC511 course; VMware vSphere ICM and Operate, Scale and Secure v8.0 course — Douran Academy
+- Two peer-reviewed conference papers in applied machine learning
+
+## Contact
+
+📫 [amiri.kiarash@outlook.com](mailto:amiri.kiarash@outlook.com) · [LinkedIn](https://www.linkedin.com/in/kiarash-amiri)
